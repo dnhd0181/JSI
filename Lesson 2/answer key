@@ -1,0 +1,17 @@
+**slice
++Cắt theo thứ tự array.slice(mở đầu, kết thúc)
++Giá trị mặc định: 
+	-mở đầu:0
+	-kết thúc: cuối cùng
++Giá trị có thể lấy số âm, lúc đó sẽ đi ngược lại array
++Array trả về bao gồm giá trị ở vị trí từ "mở đầu" tới trước "kết thúc" {ngắn gọn là cái ngoặc này [x,y)}
++Khi trả về array trả đúng thứ tự Array gốc (lấy số âm vẫn trả về theo ĐÚNG thứ tự array gốc)**
+
+
+**split
++Biến từ một chuỗi thành một mảng bao gồm substring( tất cả những kí tự có trong chuỗi aka chuỗi con aka substring)
++Thứ trả về là 1 MẢNG (Lưu ý: 1 MẢNG chứ không phải chuối, cái mảng có cái [] nè, chuỗi thì là "")
++Không thay đổi chữ ban đầu
++string.split(separator, limit)
+	+separator : Đối tượng tách (default {"":tách theo từng chữ, tính cả space}	{" ": đối tượng tách là space}
+	+limit : Số lượng phần tử có trong array sau khi tách, phần thừa không được tính thêm vào
